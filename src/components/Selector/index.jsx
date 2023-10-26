@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { useEffect } from "react";
+import { themeValues } from "./themesData.js";
+import { themeChange } from "theme-change";
 
 export default function Index() {
   useEffect(() => {

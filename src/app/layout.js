@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "../components/Nav";
 import Glossary from "../components/Glossary";
 import Table from "../components/Table";
+import Selector from "../components/Selector";
 
 const name = "[Oscar Loaiza]";
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className}`}>
         <Navbar />
+        <Selector />
         <Glossary />
         <Table />
       </body>

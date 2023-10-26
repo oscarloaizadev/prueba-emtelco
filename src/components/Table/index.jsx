@@ -68,7 +68,7 @@ export default function Table() {
 
   return (
     <section
-      className="card bg-base-200 flex flex-col mt-[4rem] drop-shadow-md
+      className="card bg-base-200 flex flex-col my-[4rem] drop-shadow-md
     hover:drop-shadow-xl mx-[10%] ml-20 mr-3 md:mx-[25%]"
     >
       <div className="mt-4 mx-20">

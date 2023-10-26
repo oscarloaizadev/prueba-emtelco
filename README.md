@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prueba Técnica para Emtelco 2023
 
-## Getting Started
+¡Bienvenidos a mi proyecto de evaluación! En esta experiencia, les presentaré dos desafíos que he diseñado para demostrar mis habilidades técnicas, mi capacidad de diseño y mi aptitud para desarrollar soluciones atractivas. A continuación, les presentaré las dos pruebas que conforman este proyecto.
 
-First, run the development server:
+## Desafíos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prueba 1: Integración de API y Visualización de Datos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+En esta prueba, evaluaré mi capacidad para integrar una API externa, mostrar datos de un archivo Excel local y permitir la filtración y búsqueda de datos en una página web. Mi tarea era crear un directorio de información de los clientes de una clínica.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Prueba 2: Creación de un Glosario
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+En esta segunda prueba, mi misión fue crear un glosario interactivo que permitiera a los usuarios buscar términos en tiempo real. La página debía resaltar las palabras que coinciden con la búsqueda, ocultar las que no coinciden y mostrar el número de resultados encontrados.
 
-## Learn More
+Cada prueba incluye instrucciones detalladas y ejemplos para ayudarles a comprender mis soluciones. Espero que estas pruebas sean una oportunidad para demostrar mi creatividad y habilidades técnicas mientras trabajo en proyectos realistas.
 
-To learn more about Next.js, take a look at the following resources:
+## Autor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Nombre**: Oscar Esteban Loaiza Calderón
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tecnologías y Bibliotecas Utilizadas
 
-## Deploy on Vercel
+Este proyecto hace uso de varias tecnologías y bibliotecas para ofrecer funcionalidades y una experiencia de usuario enriquecida. A continuación, se describen las principales tecnologías utilizadas:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **React-icons**:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   - **Descripción**: React-icons es una biblioteca que proporciona una amplia colección de íconos listos para usar en aplicaciones React, mejorando la estética y la usabilidad de la interfaz de usuario.
+
+2. **React-data-table-component-with-filter**:
+
+   - **Descripción**: React-data-table-component-with-filter es una biblioteca que facilita la creación de tablas de datos interactivas en aplicaciones React. Ofrece funciones de filtrado y búsqueda para mejorar la experiencia del usuario.
+
+3. **SheetJS**:
+
+   - **Descripción**: SheetJS es una biblioteca que permite trabajar con hojas de cálculo en formatos como Excel, útil para la importación y manipulación de datos en hojas de cálculo.
+
+4. **Axios**:
+
+   - **Descripción**: Axios es una biblioteca para realizar solicitudes HTTP en aplicaciones JavaScript, utilizada para comunicarse con servidores y gestionar respuestas de APIs y servicios web.
+
+5. **DaisyUI**:
+
+   - **Descripción**: DaisyUI es una extensión para Tailwind CSS que agrega componentes predefinidos para el desarrollo de interfaces de usuario con Tailwind CSS.
+
+6. **Theme Change**:
+
+   - **Descripción**: Theme Change es una característica que permite a los usuarios personalizar la apariencia visual de la aplicación, incluyendo colores, fuentes e imágenes.
+
+7. **Mammoth**:
+   - **Descripción**: Mammoth es una herramienta utilizada para convertir documentos de Word en formatos legibles en la web, como HTML o Markdown, permitiendo la importación de contenido desde documentos de Word.
+
+Aproveche estas tecnologías y bibliotecas para mejorar y enriquecer la funcionalidad y el diseño de este proyecto.
+
+## Enlace al Sitio Web o Demo
+
+Si deseas ver una demostración de este proyecto, puedes acceder a [Prueba Técnica para Emtelco 2023](https://prueba-emtelco.vercel.app/).

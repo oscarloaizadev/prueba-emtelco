@@ -44,7 +44,7 @@ export default function Glossary() {
 
   return (
     <section
-      className="card bg-base-200 flex flex-col mx-[30%] mt-[2rem] drop-shadow-md
+      className="card bg-base-200 flex flex-col mx-[25%] mt-[2rem] drop-shadow-md
     hover:drop-shadow-xl"
     >
       <h1 className="m-auto mt-5 justify-center font-medium text-8xl">

@@ -10,7 +10,7 @@ export default function Index({ children }) {
   const [open, setOpen] = useState(true);
 
   return (
-    <nav className="flex gap-6 z-10 fixed">
+    <nav className="flex gap-6 z-10 fixed top-[1px]">
       <div
         className={`bg-primary min-h-screen ${
           open ? "w-72" : "w-16"

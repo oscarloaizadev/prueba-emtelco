@@ -44,12 +44,12 @@ export default function Glossary() {
 
   return (
     <section
-      className="card bg-base-200 flex flex-col mx-[25%] mt-[2rem] drop-shadow-md
-    hover:drop-shadow-xl"
+      className="card bg-base-200 flex flex-col mt-[2rem] drop-shadow-md
+    hover:drop-shadow-xl mx-[10%] ml-20 mr-3 md:mx-[25%]"
     >
-      <h1 className="m-auto mt-5 justify-center font-medium text-8xl">
+      <div className="m-auto font-medium text-4xl justify-center text-center mt-[2rem] md:text-5xl">
         Glosario
-      </h1>
+      </div>
       <div className="flex justify-center">
         <div className="form-control w-full max-w-xs">
           <label className="label">
@@ -75,7 +75,7 @@ export default function Glossary() {
         )}
       </div>
       <div class="divider mx-20"></div>
-      <ul role="list" className="my-10 space-y-3 mx-20">
+      <ul role="list" className="my-10 space-y-3 md:mx-20 mx-10">
         {filteredTerms.length > 0 ? (
           filteredTerms.map((term, index) => (
             <li className="" key={index}>

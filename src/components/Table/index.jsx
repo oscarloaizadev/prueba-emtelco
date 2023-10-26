@@ -68,12 +68,14 @@ export default function Table() {
 
   return (
     <section
-      className="card bg-base-200 flex flex-col mx-[25%] mt-[2rem] drop-shadow-md
-    hover:drop-shadow-xl"
+      className="card bg-base-200 flex flex-col mt-[4rem] drop-shadow-md
+    hover:drop-shadow-xl mx-[10%] ml-20 mr-3 md:mx-[25%]"
     >
       <div className="mt-4 mx-20">
-        <h1 className="m-auto font-medium text-8xl">Buscador de duplas</h1>
-        <div className="mb-4">
+        <div className="m-auto font-medium text-4xl justify-center text-center md:text-5xl">
+          Buscador de duplas
+        </div>
+        <div className="mb-4 justify-center text-center">
           <span className="label-text">
             Buscar info en tus tablas de{" "}
             <span className="badge badge-accent font-bold">excel</span> nunca
